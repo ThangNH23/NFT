@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navs{
+    padding: 1rem 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #747d8c;
+}
+
+.navs .logo img{
+    width: 60px;
+}
+
+.navs ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.navs ul li{
+    text-align: center;
+    padding-right: 5%;
+}
+
+.navs li{
+    margin-right: 10px;
+}
+
+/* contentF */
+
+.banner .card1, .banner .card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+    .banner .card1{
+        background-image: url('../asset/NFT2.png');
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.banner .tesk{
+    z-index: 100;
+    color: #fff;
+}
+
+.banner .tesk h3{
+    font-size: 30px;
+}
+
+.banner .tesk h4{
+    font-size: 20px;
+    margin: 10px 0; 
+}
+
+.banner button{
+    background-color: #4ca93a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+/* Services */
+
+.serviceSection{
+    padding-top: 50px;
+}
+
+.serviceContent{
+    display: flex;
+    padding: 3rem 4%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.serviceContent .card{
+    width: 400px;
+    text-align: left;
+    box-shadow: 3px 4px 17px -1px rgba(0,0,0,0.75);
+    border-bottom: 7px solid #4ca93a;
+}
+
+.serviceContent .card .teks{
+    padding: 0 10px;
+    padding-bottom: 30px;
+}
+
+.serviceContent .card h3{
+    margin: 10px 0;
+}
+
+.serviceContent .card .images{
+    width: 100%;
+}
+
+.serviceContent .card .images img{
+    width: 100%;
+}
+
+
